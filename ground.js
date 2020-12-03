@@ -18,7 +18,7 @@ class Ground
     {
         var pos = this.body.position
         rectMode(CENTER)
-        FileList(255);
+        fill(255);
         rect(pos.x,pos.y,this.width,this.height)
     }
 
